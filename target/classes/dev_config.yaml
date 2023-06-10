@@ -1,0 +1,7 @@
+project: "Zhylinskaya Kseniya Test"
+driverDetails:
+  browserWindowSize: "1700x1100"
+  downloadDir: "/home/user/Downloads"
+  timeout: 180000
+  appURL: "https://login.salesforce.com/"
+

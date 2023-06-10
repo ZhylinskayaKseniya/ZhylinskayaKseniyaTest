@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG" parallel="methods" thread-count="1">
+    <test name="Test">
+        <classes>
+            <class name="Tests.Account">
+                <methods>
+                    <include name="Create_account"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
